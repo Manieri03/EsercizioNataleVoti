@@ -31,7 +31,7 @@ namespace EsercizioNataleVoti
         {
             List<string> nomi = new List<string>();
             List<double> voti = new List<double>();
-            StreamReader sr = new StreamReader("FileInvalido.txt", Encoding.UTF8);
+            StreamReader sr= new StreamReader("FileInvalido.txt", Encoding.UTF8);
             string line;
             while ((line = sr.ReadLine()) != null)
             {
